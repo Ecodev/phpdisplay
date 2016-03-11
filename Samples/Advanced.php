@@ -1,7 +1,7 @@
 <?php
 
 // Parameters
-$parameters = t3lib_div::_GP('tx_displaycontroller');
+$parameters = \TYPO3\CMS\Core\Utility\GeneralUtility::_GP('tx_displaycontroller');
 
 // Default language of this website is 'fr'
 $language = 'fr';
@@ -114,7 +114,7 @@ function image($key) {
 function linkSort() {
 
 	// Parameters
-	$parameters = t3lib_div::_GP('tx_displaycontroller');
+	$parameters = \TYPO3\CMS\Core\Utility\GeneralUtility::_GP('tx_displaycontroller');
 
 	// Set default sorting value
 	if (empty($parameters['sort'])) {

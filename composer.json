@@ -1,7 +1,17 @@
 {
-    "name": "ecodev/phpdisplay",
-    "type": "typo3-cms-extension",
-    "description": "Use Plain PHP templates to display any kind of data returned by a Data Provider. More info on http://www.typo3-tesseract.com",
-    "homepage": "https://github.com/ecodev/phpdisplay",
-    "license": "GPL-2.0+"
+	"name": "tesseract/phpdisplay",
+	"type": "typo3-cms-extension",
+	"description": "Use Plain PHP templates to display any kind of data returned by a Data Provider. More info on http://www.typo3-tesseract.com",
+	"homepage": "https://github.com/Ecodev/phpdisplay",
+	"license": ["GPL-2.0+"],
+	"version": "1.4.0-dev",
+	"keywords": ["TYPO3 CMS", "tesseract", "generic listing"],
+	"autoload": {
+		"psr-4": {
+			"Tesseract\\Phpdisplay\\": "Classes/"
+		}
+	},
+	"support": {
+		"issues": "https://github.com/Ecodev/phpdisplay/issues"
+	}
 }
