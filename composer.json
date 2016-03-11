@@ -1,0 +1,7 @@
+{
+    "name": "ecodev/phpdisplay",
+    "type": "typo3-cms-extension",
+    "description": "Use Plain PHP templates to display any kind of data returned by a Data Provider. More info on http://www.typo3-tesseract.com",
+    "homepage": "https://github.com/ecodev/phpdisplay",
+    "license": "GPL-2.0+"
+}
