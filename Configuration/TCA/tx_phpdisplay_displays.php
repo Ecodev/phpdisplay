@@ -59,25 +59,6 @@ return [
                 'size' => '30',
                 'eval' => 'trim',
                 'default' => 'EXT:phpdisplay/Samples/Simple.php',
-                'wizards' => [
-                    '_PADDING' => 2,
-                    'link' => [
-                        'type' => 'popup',
-                        'title' => 'Link',
-                        'icon' => 'link_popup.gif',
-                        'module' => [
-                            'name' => 'wizard_element_browser',
-                            'urlParameters' => [
-                                'mode' => 'wizard',
-                                'act' => 'file'
-                            ]
-                        ],
-                        'JSopenParams' => 'height=600,width=700,status=0,menubar=0,scrollbars=1',
-                        'params' => [
-                            'blindLinkOptions' => 'page,url,mail,spec,folder',
-                        ],
-                    ]
-                ]
             ]
         ],
     ],
